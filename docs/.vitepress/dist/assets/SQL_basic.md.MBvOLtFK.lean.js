@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.D_thBnQr.js";const F=JSON.parse('{"title":"SQL學習筆記","description":"","frontmatter":{},"headers":[],"relativePath":"SQL/basic.md","filePath":"SQL/basic.md"}'),l={name:"SQL/basic.md"},h=n("",86),t=[h];function k(p,e,E,d,r,g){return a(),i("div",null,t)}const c=s(l,[["render",k]]);export{F as __pageData,c as default};
