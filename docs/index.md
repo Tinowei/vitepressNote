@@ -26,13 +26,18 @@ hero:
       text: ORM
       link: /ORM/dapper  
 
-# features:
-  
-#   - icon: 🛠️
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-# ---
 
+features:
+  - title: momo
+    details: 商品列表切版
+    link: https://tinowei.github.io/HW1/product1.html
+  - title: shopline
+    details: shopline網站切版
+    link: https://tinowei.github.io/HW2/shopline.html
+  - title: allhawaii
+    details: allhawaii切版
+    link: https://tinowei.github.io/HW3/allhawaii.html
+  - title: toyota
+    details: toyota切版
+    link: https://tinowei.github.io/HW4/toyota02.html
+---
