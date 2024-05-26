@@ -47,7 +47,7 @@ export default defineConfig({
           ]
       },
       {
-        text:'ORM',
+        text:'Dapper',
         collapsed:true,
         items:[
           {text:'Dapper',link:'/ORM/dapper/'}
