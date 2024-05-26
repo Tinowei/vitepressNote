@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.D_thBnQr.js";const F=JSON.parse('{"title":"Dapper學習筆記","description":"","frontmatter":{},"headers":[],"relativePath":"ORM/dapper.md","filePath":"ORM/dapper.md"}'),h={name:"ORM/dapper.md"},t=n("",58),l=[t];function k(p,e,E,r,d,y){return a(),i("div",null,l)}const o=s(h,[["render",k]]);export{F as __pageData,o as default};

@@ -2,17 +2,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'.',
+  base:'..',
   title: "Tino's Notes",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '🏠 Home', link: '/' },
+      { text: '🏠 Home', link: '../' },
       // { text: 'Examples', link: '/markdown-examples' },
-      { text: 'JavaScript', link: '/Javascript/javascript' },
-      { text: 'SQL', link: '/SQL/basic' },
-      { text: 'ORM', link: '/ORM/dapper' }
+      { text: 'JavaScript', link: '../Javascript/javascript' },
+      { text: 'SQL', link: '../SQL/basic' },
+      { text: 'ORM', link: '../ORM/dapper' }
     ],
 
     sidebar: [
@@ -28,7 +28,7 @@ export default defineConfig({
         text: 'Javascript',
         collapsed: true,
           items: [
-            { text: 'JS筆記', link: '/Javascript/javascript' },
+            { text: 'JS筆記', link: '../Javascript/javascript' },
           ]
       },
       {
@@ -39,10 +39,10 @@ export default defineConfig({
         text: 'SQL',
         collapsed: true,
           items: [
-            { text: 'SQL概述', link: '/SQL/basic' },
-            { text: 'JOIN', link: '/SQL/join' },
+            { text: 'SQL概述', link: '../SQL/basic' },
+            { text: 'JOIN', link: '../SQL/join' },
             { text: 'char  / varchar /  nvarvchar', link: '/SQL/char' },
-            { text: '子查詢', link: '/SQL/subquery' },
+            { text: '子查詢', link: '../SQL/subquery' },
 
           ]
       },
@@ -50,7 +50,7 @@ export default defineConfig({
         text:'Dapper',
         collapsed:true,
         items:[
-          {text:'Dapper',link:'/ORM/dapper/'}
+          {text:'Dapper',link:'../ORM/dapper/'}
         ]
       }
     ],
