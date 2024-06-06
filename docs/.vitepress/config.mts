@@ -41,7 +41,7 @@ export default defineConfig({
           {text:'v-if , v-else-if , v-else , v-show', link:'/Vue/Ch03'},
           {text:'v-for', link:'/Vue/Ch04'},
           {text:'function', link:'/Vue/Ch05'},
-          {text:'v-model 雙向綁定 , 關於Form表單', link:'/Vue/Ch08'},
+          {text:'v-model 雙向綁定 , 關於Form表單', link:'/Vue/Ch06'},
           {text:'Computed , Methods , Watch', link:'/Vue/Ch07'},
           {text:'Component 元件', link:'/Vue/Ch08'},
           {text:'關於生命週期', link:'/Vue/Ch09'},
