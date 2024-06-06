@@ -17,6 +17,9 @@ hero:
       text: Javascript
       link: /Javascript/javascript
     - theme: alt
+      text: Vue
+      link: /Vue/Ch01
+    - theme: alt
       text: CSharp
       link: /
     - theme: alt
