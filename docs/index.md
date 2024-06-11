@@ -48,34 +48,34 @@ hero:
 <hr />
 
 <my-card 
-  image="docs/public/HW_momo.png"
+  image="../docs/public/HW_momo.png"
   name="MOMO"
   link="https://tinowei.github.io/HW1/product1.html"
 />
 <my-card 
-  image="docs/public/HW_Shopline.png"
+  image="../docs/public/HW_Shopline.png"
   name="ShopLine"
   link="https://tinowei.github.io/HW2/shopline.html"
 />
 <my-card 
-  image="docs/public/hawaii.png"
+  image="../docs/public/hawaii.png"
   name="Allhawaii"
   link="https://tinowei.github.io/HW3/allhawaii.html"
 />
 <my-card 
-    image="docs/public/toyota.png"
+    image="../docs/public/toyota.png"
   name="Toyota"
   link="https://tinowei.github.io/HW4/toyota02.html"
 />
 
 <my-card 
-    image="docs/public/guessNumber.png"
+    image="../docs/public/guessNumber.png"
   name="Guessing Number"
   link="https://tinowei.github.io/HW_JS/GuessNumber.html"
 />
 
 <my-card 
-    image="docs/public/todolist.png"
+    image="../docs/public/todolist.png"
   name="Todo List"
   link="https://tinowei.github.io/TodoList/todoList.html"
 />
