@@ -1,8 +1,8 @@
-import { defineConfig } from 'vitepress'
+import { withBase, defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/./',
+  base:'/vitepressNote/',
   title: "Tino's Notes",
   description: "A VitePress Site",
   themeConfig: {
