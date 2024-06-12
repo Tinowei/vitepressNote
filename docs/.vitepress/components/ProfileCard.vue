@@ -68,8 +68,9 @@ background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(43,43,203,1) 20%, rg
     
 
     .introduction-card {
-        width: 50%;
+        width: 60%;
         height: 300px;
+        margin-left: 20px;
         background-color: #fff;
         border-radius: 20px;
         display: flex;
@@ -163,6 +164,7 @@ background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(43,43,203,1) 20%, rg
         .introduction-card {
         width: 100%;
         height: 300px;
+        margin-left: 0;
         background-color: #fff;
         border-radius: 20px;
         display: flex;
