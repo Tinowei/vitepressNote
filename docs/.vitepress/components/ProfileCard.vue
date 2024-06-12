@@ -68,7 +68,7 @@ background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(43,43,203,1) 20%, rg
     
 
     .introduction-card {
-        width: 600px;
+        width: 50%;
         height: 300px;
         background-color: #fff;
         border-radius: 20px;
@@ -95,7 +95,7 @@ background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(43,43,203,1) 20%, rg
 
 
     .introduction-card img {
-        width: 250px;
+        width: 40%;
         height: 300px;
         object-fit: cover;
         border-radius: 20px;
@@ -141,7 +141,7 @@ background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(43,43,203,1) 20%, rg
     a.badge {
         /* outline: 1px solid black; */
         text-decoration: none;
-        font-size: 13px;
+        font-size: 12px;
         color: #fff;
         background-color: #322f2f;
         border-radius: 20px;
@@ -153,5 +153,47 @@ background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(43,43,203,1) 20%, rg
         background-color: #7e7474;
         transition: .3s;
     }
+
+
+    
+
+
+    @media (max-width: 768px) {
+
+        .introduction-card {
+        width: 100%;
+        height: 300px;
+        background-color: #fff;
+        border-radius: 20px;
+        display: flex;
+        /* justify-content: baseline; */
+        flex-direction: column;
+        /* padding: 20px; */
+        box-shadow: 5px 5px 20px #00000080;
+        z-index: 1;
+        animation: drift 3s infinite;
+    }
+
+    .introduction-card img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        border-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+  .description .title {
+    font-size: 22px;
+    margin-top: -30px;
+  }
+  .description .content {
+    font-size: 16px;
+  }
+  a.badge {
+    font-size: 10px;
+    padding: 3px 10px;
+  }
+}
 </style>
 
