@@ -3,6 +3,7 @@
     <a class="card" :href="link">
         <div class="card-body">
             <img :src="image" alt="">
+            <div class="overlay"></div>
             <div class="gray">{{name}}</div>
         </div>
         <p class="product-name">{{name}}</p>
@@ -56,20 +57,32 @@ export default {
             cursor: pointer;
             font-family: cursive;
         }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(46, 41, 41, 0.517);
+            /* 50% opacity black */
+            border-radius: 8px;
+        }
+
         .gray {
             position: absolute;
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 28px;
-            color: #191c29;
+            color: #fff;
             font-weight: 800;
             border-radius: 8px;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(138, 135, 135, 0.5); /* 灰色且有透明度 */
+            background-color: rgba(9, 8, 8, 0.517);
             opacity: 0;
             transition: opacity 0.3s;
         }
@@ -79,6 +92,7 @@ export default {
             object-fit: cover;
             position: absolute;
             border-radius: 8px;
+            background-color: #453d3d48;
         }
 
         /* .card:hover {
