@@ -1,8 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+---
 
-hero:
+<!-- hero:
   name: "Tino's Notes"
   text: "A VitePress Site"
   tagline: 從0到放棄的學習筆記
@@ -43,9 +44,24 @@ hero:
 #   - title: toyota
 #     details: toyota切版
 #     link: https://tinowei.github.io/HW4/toyota02.html
----
+--- -->
+<script setup>
 
-<hr />
+const image = 'ai_picture.png'
+const links = [
+  { text: 'Javascript', href: 'Javascript/javascript' },
+  { text: 'Vue', href: 'Vue/Ch01' },
+  { text: 'SQL', href: 'SQL/basic' },
+  { text: 'Dapper', href: 'ORM/dapper' }
+]
+</script>
+
+
+<my-profile :image="image" :links="links" />
+
+<br>
+<br>
+<br>
 
 <my-card 
   image="HW_momo.png"
