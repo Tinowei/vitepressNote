@@ -1,6 +1,6 @@
 <template>
 
-    <a class="card" :href="link">
+    <a class="card" :href="link" target="_blank">
         <div class="card-body">
             <img :src="image" alt="">
             <div class="overlay"></div>
