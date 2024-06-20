@@ -5,7 +5,7 @@
             <div class="description">
                 <p class="title">Tino's Notes</p>
                 <div class="content">
-                    從0到放棄的學習筆記
+                    一些學習筆記
                 </div>
                 <div class="note-group">
                     <a class="badge"
